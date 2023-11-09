@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 /* Import of Google Fonts */
-@import url(melodrama.css);
+@import url('melodrama.css');
 
 body {
   background-image: linear-gradient(to top, black, #0000), var(--noise-5);
