@@ -5,14 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 /* Import of Google Fonts */
-@import url('melodrama.css');
+@import url(melodrama.css);
 
 body {
   background-image: linear-gradient(to top, black, #0000), var(--noise-5);
   background-size: cover;
   height: 150vh;
   color: var(--sand-1);
-  font-family: 'Anton' 
+  font-family: 'Melodrama Variable' 
   
 }
 
