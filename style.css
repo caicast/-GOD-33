@@ -5,14 +5,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 /* Import of Google Fonts */
-@import url(melodrama.css);
+@import url(quilon.css);
 
 @import url(video.mp4);
 
 body {
   height: 150vh;
   color: var(--sand-1);
-  font-family: 'Melodrama-Variable'; 
+  text-shadow: 2px 2px 5px black;
+  font-family: 'Quilon-Bold'; 
   text-align: center;
 }
 
@@ -32,8 +33,9 @@ h1 {
 }
 
 h1 a {
-  font-family: 'Melodrama-Variable';
+  font-family: 'Quilon-Bold';
   color: var(--sand-1);
+  text-shadow: 2px 2px 5px black;
   text-decoration: none;
 }
 
@@ -47,15 +49,15 @@ h1:hover {
 
 video {
   /** Simulationg background-size: cover */
-  -o-object-fit: cover;
-  object-fit: cover;
+  -o-object-fit: fill;
+  object-fit: fill;
 -o-object-position: center;
   object-position: center;
   height: 100%;
   width: 100%;
   z-index: -1;
 
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
 }
