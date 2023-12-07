@@ -7,18 +7,18 @@
 /* Import of Google Fonts */
 @import url(melodrama.css);
 
+@import url(video.mp4);
+
 body {
-  background-image: linear-gradient(to top, black, #0000), var(--noise-5);
-  background-size: cover;
   height: 150vh;
   color: var(--sand-1);
-  font-family: 'Melodrama Variable' 
-  
+  font-family: 'Melodrama-Variable'; 
+  text-align: center;
 }
 
 /* Main Container */
 main {
-  width: 800px;
+  width: 1500x;
   margin: 0 auto 0 auto;
   padding: 50px;
 }
@@ -32,7 +32,7 @@ h1 {
 }
 
 h1 a {
-  font-family: 'Melodrama Variable';
+  font-family: 'Melodrama-Variable';
   color: var(--sand-1);
   text-decoration: none;
 }
@@ -43,4 +43,19 @@ h1 a:hover {
 
 h1:hover {
   animation: var(--animation-blink)
+}
+
+video {
+  /** Simulationg background-size: cover */
+  -o-object-fit: cover;
+  object-fit: cover;
+-o-object-position: center;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+
+  position: absolute;
+  top: 0;
+  left: 0;
 }
